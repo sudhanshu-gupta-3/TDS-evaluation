@@ -30,3 +30,24 @@ Training and Evaluation-
 Training : The model will be trained over 50 epochs. To optimize computing process, we will implement an Early Stopping callback: if the validation accuracy gets constant for more than 5 consecutive epochs, the training will terminate, and the best weights will be serialized.
 Evaluation Metrics: The hard target is a Testing Accuracy (mAP@.5) exceeding 90%. We will specifically evaluate the "tail" of the distribution—rare signs that appear less frequently but are critical for safety.
 Latency Optimization: We aim for sub-10ms inference per frame, ensuring the system can operate at highway speeds without "frame-skipping" the detection of critical signage.
+Error Handling and Documentation-: 
+
+Handle frontend form errors gracefully.
+
+
+Handle backend validation errors.
+
+
+Provide structured error responses.
+
+
+Log backend failures appropriately.
+
+
+Requirements -: 
+
+The model should be able to detect all kinds of traffic signs.
+Accuracy in testing data must be above 90%.
+The latency rate should be as low as possible.
+It should be able to detect partially visible signs also.
+
