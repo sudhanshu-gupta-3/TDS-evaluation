@@ -23,7 +23,7 @@ Develop a complete end-to-end Traffic Sign Detection System that:
 
 ## Dataset Selection
 
-Use the German Traffic Sign Recognition Benchmark dataset as the primary training dataset.
+Use the German Traffic Sign Recognition Benchmark dataset as the primary dataset for training and testing the model.
 
 Additionally:
 
@@ -38,12 +38,12 @@ Additionally:
 For classes having fewer than 1,000 images:
 
 * Use generative synthetic augmentation techniques.
-* Generate realistic synthetic samples to reduce class imbalance.
-* Ensure balanced representation across all sign categories.
+* Generate realistic samples to reduce class imbalance.
+* Ensure balanced images across all sign categories.
 
 ## Preprocessing Pipeline
 
-Using Pandas and NumPy, implement a robust preprocessing and validation pipeline that:
+Use Pandas and NumPy to implement a robust preprocessing and validation pipeline that:
 
 * Detects and removes corrupt image files.
 * Validates annotation consistency.
@@ -292,29 +292,29 @@ Ensure:
 
 ## Data Processing
 
-* NumPy - Used for high-performance numerical computations, tensor manipulation, and efficient image array operations during preprocessing and inference.
+* NumPy - Used for high performance numerical computations, tensor manipulation, and efficient image array operations during preprocessing and inference.
 * Pandas - Handles dataset metadata management, annotation validation, data cleaning, and preprocessing pipeline orchestration.
-* Albumentations - Provides advanced image augmentation techniques such as occlusion simulation, weather effects, motion blur, and geometric transformations to improve model robustness.
+* Albumentations - Provides advanced image augmentation techniques, weather effects, motion blur, and geometric transformations to improve model robustness.
 
 ## LLM Integration
 
-* OpenAI API - Converts raw traffic sign detections into intelligent, human-readable driving alerts and contextual navigation guidance.
+* OpenAI API - Converts raw traffic sign detections into intelligent human readable driving alerts and contextual navigation guidance.
 
 ## Dashboard
 
-* Streamlit - Used to build a lightweight real-time dashboard for visualizing detections, bounding boxes, FPS metrics, confidence scores, and AI-generated alerts.
+* Streamlit - Used to build a lightweight real time dashboard for visualizing detections, bounding boxes, confidence scores, and AI-generated alerts.
 
 ## Optimization Tools
 
-* ONNX - Enables cross-platform model export and optimized inference deployment across different hardware environments.
-* TensorRT - Accelerates deep learning inference on NVIDIA GPUs by optimizing computation graphs and reducing latency.
-* CUDA - Utilized for GPU-accelerated parallel computation to achieve real-time object detection performance.
+* ONNX - Enables cross platform model export and optimized inference deployment across different hardware environments.
+* TensorRT - Accelerates deep learning inference on NVIDIA GPUs by optimizing computation graphs and by  reducing latency.
+* CUDA - Utilized for GPU- accelerated parallel computation to achieve realtime object detection performance.
 
 ## Optional Enhancements
 
-* Docker - Helps containerize the entire application for consistent deployment across local systems, servers, and cloud environments.
+* Docker - Helps in containerizing the entire application for consistent deployment across local systems and cloud environments.
 * FastAPI - Can be used to expose inference APIs for scalable real-time prediction services and external integrations.
-* Redis Queue - Supports asynchronous task handling and queue management for high-throughput inference workloads.
+* Redis Queue - Supports asynchronous task handling and queue management for high throughput inference workloads.
 * PostgreSQL or MongoDB - Stores detection logs, analytics data, inference history, and system monitoring information for future analysis.
 
 # Final Requirements
@@ -322,9 +322,9 @@ Ensure:
 The final system must:
 
 * Detect all major Indian traffic signs
-* Achieve testing accuracy above 90%
-* Maintain ultra-low latency
+* Have testing accuracy above 90%
+* Maintain ultra low latency
 * Detect partially visible signs reliably
 * Operate in real time
-* Generate contextual AI-powered driving alerts
+* Generate contextual AI powered driving alerts
 * Provide a fully working single Python implementation suitable for production deployment
