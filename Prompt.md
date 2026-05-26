@@ -51,7 +51,7 @@ Use Pandas and NumPy to implement a robust preprocessing and validation pipeline
 
 ## Environmental Augmentation
 
-To improve robustness against real-world conditions, apply aggressive augmentation techniques including Random cropping, CutMix augmentation, Simulated occlusions, Shadow overlays, Tree branch interference, Vehicle obstruction simulation, Motion blur, Rain effects, Dust storm simulation, Night-time glare, Low-light enhancement, Brightness and contrast randomization
+To improve robustness against real world conditions, apply augmentation techniques including Random cropping, CutMix augmentation, Simulated occlusions, Shadow overlays, Tree branch interference, Vehicle obstruction simulation, Motion blur, Rain effects, Dust storm simulation, Night-time glare, Low-light enhancement, Brightness and contrast randomization.
 
 The model must learn to detect, Partially visible traffic signs, Damaged signs, Distant signs, Motion-blurred signs
 
@@ -79,9 +79,7 @@ Provide real-time webcam/video-stream integration for:
 
 ## Inference Engine
 
-Use **YOLOv8** as the primary object detection architecture.
-
-Alternative architectures may be considered if they provide Better latency, Higher mAP, Improved edge-device performance
+Use **YOLOv8** as the primary object detection architecture. Alternative architectures may be considered if they provide Better latency, Higher mAP, Improved edge device performance
 
 ## Performance Optimization
 
