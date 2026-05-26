@@ -292,30 +292,30 @@ Ensure:
 
 ## Data Processing
 
-* NumPy 
-* Pandas
-* Albumentations
+* NumPy - Used for high-performance numerical computations, tensor manipulation, and efficient image array operations during preprocessing and inference.
+* Pandas - Handles dataset metadata management, annotation validation, data cleaning, and preprocessing pipeline orchestration.
+* Albumentations - Provides advanced image augmentation techniques such as occlusion simulation, weather effects, motion blur, and geometric transformations to improve model robustness.
 
 ## LLM Integration
 
-* OpenAI API
+* OpenAI API - Converts raw traffic sign detections into intelligent, human-readable driving alerts and contextual navigation guidance.
 
 ## Dashboard
 
-* Streamlit
+* Streamlit - Used to build a lightweight real-time dashboard for visualizing detections, bounding boxes, FPS metrics, confidence scores, and AI-generated alerts.
 
 ## Optimization Tools
 
-* ONNX
-* TensorRT
-* CUDA
+* ONNX - Enables cross-platform model export and optimized inference deployment across different hardware environments.
+* TensorRT - Accelerates deep learning inference on NVIDIA GPUs by optimizing computation graphs and reducing latency.
+* CUDA - Utilized for GPU-accelerated parallel computation to achieve real-time object detection performance.
 
-## Optional
+## Optional Enhancements
 
-* Docker
-* FastAPI
-* Redis Queue
-* PostgreSQL or MongoDB for detection logs
+* Docker - Helps containerize the entire application for consistent deployment across local systems, servers, and cloud environments.
+* FastAPI - Can be used to expose inference APIs for scalable real-time prediction services and external integrations.
+* Redis Queue - Supports asynchronous task handling and queue management for high-throughput inference workloads.
+* PostgreSQL or MongoDB - Stores detection logs, analytics data, inference history, and system monitoring information for future analysis.
 
 # Final Requirements
 
