@@ -69,11 +69,7 @@ Used for Fleet monitoring,  Post-drive analytics, Surveillance applications
 
 ## Live Stream
 
-Provide real-time webcam/video-stream integration for:
-
-* In-vehicle driver assistance
-* Live traffic monitoring
-* Smart transportation systems
+Provide real-time webcam/video-stream integration for, In-vehicle driver assistance,Live traffic monitoring, Smart transportation systems
 
 # Model and Inference Requirements
 
@@ -114,32 +110,13 @@ The LLM should:
 
 ## Live Monitoring Interface
 
-Build a high-performance dashboard using **Streamlit** that provides:
-
-* Real-time bounding box visualization
-* Detection confidence display
-* Live alert logs
-* Video stream rendering
-* Detection statistics
-* FPS monitoring
-* System latency metrics
+Build a high-performance dashboard using **Streamlit** that provides, realtime bounding box visualization, Detection confidence display,live alert logs, video stream rendering, detection statistics, FPS monitoring, System latency metrics
 
 # UI and Visualization Requirements
 
-The dashboard must include:
+The dashboard must include, animated realtime detection overlays, detection history panel,alert notification feed,confidence score visualization, Performance analytics
 
-* Animated real-time detection overlays
-* Detection history panel
-* Alert notification feed
-* Confidence score visualization
-* Performance analytics
-
-The interface must be:
-
-* Responsive
-* Lightweight
-* Accessible
-* Optimized for low-latency rendering
+The interface must be, responsive, lightweight, accessible,Optimized for low-latency rendering
 
 # Training and Evaluation Requirements
 
@@ -168,12 +145,7 @@ The system must achieve:
 * Low false-positive rate
 * Stable inference under real-world conditions
 
-Evaluate specifically on:
-
-* Rare sign categories
-* Occluded signs
-* Low-light environments
-* Adverse weather conditions
+Evaluate specifically on rare sign categories,occluded signs,Low light environments, Adverse weather conditions
 
 # Output Requirements
 
@@ -186,61 +158,25 @@ Upon detecting a traffic sign, the system must:
 * Trigger contextual LLM-generated alerts
 * Display results in the Streamlit dashboard
 
-The output pipeline must include:
-
-* Real-time annotated frames
-* Alert logs
-* Detection summaries
-* JSON-formatted inference outputs
+The output pipeline must include, Real time annotated frames,Alert logs, Detection summaries, JSON formatted inference outputs
 
 # Error Handling and Documentation Requirements
 
 ## Error Handling
 
-Gracefully handle:
+Gracefully handle, Corrupt image files, missing annotations, webcam failures, stream interruptions, backend inference failures,LLM API failures
 
-* Corrupt image files
-* Missing annotations
-* Webcam failures
-* Stream interruptions
-* Backend inference failures
-* LLM API failures
-
-Provide:
-
-* Structured error responses
-* Robust logging mechanisms
-* Debugging-friendly error traces
+Provide structured error responses, robust logging mechanisms, debugging-friendly error traces
 
 ## Documentation
 
-Provide detailed documentation covering:
-
-* Folder structure
-* Dataset preparation
-* Training instructions
-* Environment setup
-* Model export process
-* Streamlit dashboard setup
-* API key configuration
-* Deployment instructions
+Provide detailed documentation covering folder structure, dataset preparation, training instructions, environment setup, model export process, streamlit dashboard setup,API key configuration,Deployment instructions
 
 # Performance and Scalability Requirements
 
-Optimize the system for:
+Optimize the system for Low memory consumption,efficient GPU utilization,scalable inference pipelines,multistream processing,High throughput deployments
 
-* Low memory consumption
-* Efficient GPU utilization
-* Scalable inference pipelines
-* Multi-stream processing
-* High-throughput deployments
-
-Ensure:
-
-* Minimal frame drops
-* Smooth real-time detection
-* Efficient batching
-* Non-blocking UI rendering
+Ensure Minimal frame drops,Smooth real-time detection, efficient batching,non blocking UI rendering
 
 # Technology Stack
 
