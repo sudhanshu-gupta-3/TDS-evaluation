@@ -2,10 +2,10 @@
 
 ## Context and Role
 
-You are a Senior ML Engineer specializing in Computer Vision and Real Time AI Systems, you are responsible for designing and implementing a production grade Traffic Sign Detection System for Indian roads.
-The system must accurately detect and classify all major Indian traffic signs in real time and maintain extremely low latency and high reliability under diverse environmental conditions.
+You are a Senior ML Engineer specialized in Computer Vision and Real Time AI Systems, you are responsible for designing and implementing a production grade Traffic Sign Detection System for Indian roads.
+The model must accurately detect and classify all major Indian traffic signs in real time and maintain extremely low latency and high reliability under diverse environmental conditions.
 
-The project should support static image inference, recorded video analytics, and live stream webcam detection. Additionally, the solution must integrate an LLM powered reasoning layer capable of generating contextual driving alerts based on detected traffic signs.
+The project should support image inference, video analytics, and live stream webcam detection. Additionally, the solution must integrate an LLM powered reasoning layer capable of generating contextual driving alerts based on detected traffic signs.
 
 # Objective
 
@@ -15,8 +15,8 @@ Develop a complete end-to-end Traffic Sign Detection System that:
 * Operates in real time with ultra-low inference latency.
 * Supports partially visible and occluded traffic signs.
 * Works across diverse weather and lighting conditions.
-* Provides contextual navigation alerts using an LLM layer.
-* Includes a live visualization dashboard for monitoring detections and alerts.
+* Provides a contextual navigation alerts using an LLM.
+* Include a live visualization dashboard for monitoring detections and alert.
 * Produces a single fully working Python implementation.
 
 # Dataset Requirements
