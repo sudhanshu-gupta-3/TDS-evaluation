@@ -1,0 +1,9 @@
+path: C:\Users\user\.gemini\antigravity\scratch\traffic-sign-detection\datasets\pro_synthetic
+train: images
+val: images
+
+names:
+  0: speed_limit_50
+  1: stop
+  2: no_parking
+  3: yield

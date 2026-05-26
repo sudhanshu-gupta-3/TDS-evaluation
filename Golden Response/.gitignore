@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Data & Models (Large Files)
+datasets/
+runs/
+models/*.pt
+!models/traffic_sign_best.pt
+
+# Streamlit
+.streamlit/
+static/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Roboflow / Credentials
+*.zip
+roboflow/
+.env

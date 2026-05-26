@@ -1,0 +1,102 @@
+/* Premium Traffic Sign Detection Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+:root {
+    --primary: #6366f1;
+    --primary-hover: #4f46e5;
+    --bg-dark: #0f172a;
+    --card-bg: rgba(30, 41, 59, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+.stApp {
+    background-color: var(--bg-dark);
+    font-family: 'Inter', sans-serif;
+}
+
+/* Glassmorphism for sidebar */
+section[data-testid="stSidebar"] {
+    background-color: rgba(15, 23, 42, 0.95);
+    border-right: 1px solid var(--glass-border);
+}
+
+/* Custom Title */
+h1 {
+    font-weight: 800 !important;
+    background: linear-gradient(to right, #818cf8, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.05em;
+}
+
+/* Metrics Cards */
+div[data-testid="stMetric"] {
+    background: var(--card-bg);
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease;
+}
+
+div[data-testid="stMetric"]:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+}
+
+/* File Uploader styling */
+div[data-testid="stFileUploader"] {
+    border: 2px dashed var(--glass-border);
+    border-radius: 16px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+div[data-testid="stFileUploader"]:hover {
+    border-color: var(--primary);
+    background: rgba(99, 102, 241, 0.05);
+}
+
+/* DataFrame styling */
+.stDataFrame {
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Buttons */
+.stButton button {
+    background: linear-gradient(45deg, var(--primary), #a855f7) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    padding: 0.5rem 2rem !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.stButton button:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 0 10px 20px -10px var(--primary) !important;
+}
+
+/* Navigation Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+    background-color: transparent;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 3rem;
+    background-color: transparent;
+    border-radius: 4px 4px 0px 0px;
+    gap: 1rem;
+    font-weight: 600;
+    color: #94a3b8;
+}
+
+.stTabs [aria-selected="true"] {
+    color: var(--primary) !important;
+    border-bottom: 2px solid var(--primary) !important;
+}
