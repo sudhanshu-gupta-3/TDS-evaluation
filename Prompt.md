@@ -2,8 +2,8 @@
 
 ## Context and Role
 
-As a Senior ML Engineer specializing in Computer Vision and Real-Time AI Systems, you are responsible for designing and implementing a production-grade Traffic Sign Detection System for Indian roads.
-The system must accurately detect and classify all major Indian traffic signs in real time while maintaining extremely low latency and high reliability under diverse environmental conditions.
+You are a Senior ML Engineer specializing in Computer Vision and Real-Time AI Systems, you are responsible for designing and implementing a production-grade Traffic Sign Detection System for Indian roads.
+The system must accurately detect and classify all major Indian traffic signs in real time and maintain extremely low latency and high reliability under diverse environmental conditions.
 
 The project should support static image inference, recorded video analytics, and live-stream webcam detection. Additionally, the solution must integrate an LLM-powered reasoning layer capable of generating contextual driving alerts based on detected traffic signs.
 
@@ -23,7 +23,7 @@ Develop a complete end-to-end Traffic Sign Detection System that:
 
 ## Dataset Selection
 
-Use the **GTSRB (German Traffic Sign Recognition Benchmark)** dataset as the primary training dataset.
+Use the German Traffic Sign Recognition Benchmark dataset as the primary training dataset.
 
 Additionally:
 
@@ -43,7 +43,7 @@ For classes having fewer than 1,000 images:
 
 ## Preprocessing Pipeline
 
-Using **Pandas** and **NumPy**, implement a robust preprocessing and validation pipeline that:
+Using Pandas and NumPy, implement a robust preprocessing and validation pipeline that:
 
 * Detects and removes corrupt image files.
 * Validates annotation consistency.
@@ -285,14 +285,14 @@ Ensure:
 
 ## Core AI Stack
 
-* Python
-* YOLOv8
-* OpenCV
-* PyTorch
+* Python - For the backend
+* YOLOv8 - Building the model
+* OpenCV - For Image and Video Analysis
+* PyTorch - For implementing Machine Learning
 
 ## Data Processing
 
-* NumPy
+* NumPy 
 * Pandas
 * Albumentations
 
