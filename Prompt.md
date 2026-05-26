@@ -52,27 +52,9 @@ Use Pandas and NumPy to implement a robust preprocessing and validation pipeline
 
 ## Environmental Augmentation
 
-To improve robustness against real-world conditions, apply aggressive augmentation techniques including:
+To improve robustness against real-world conditions, apply aggressive augmentation techniques including Random cropping, CutMix augmentation, Simulated occlusions, Shadow overlays, Tree branch interference, Vehicle obstruction simulation, Motion blur, Rain effects, Dust storm simulation, Night-time glare, Low-light enhancement, Brightness and contrast randomization
 
-* Random cropping
-* CutMix augmentation
-* Simulated occlusions
-* Shadow overlays
-* Tree branch interference
-* Vehicle obstruction simulation
-* Motion blur
-* Rain effects
-* Dust storm simulation
-* Night-time glare
-* Low-light enhancement
-* Brightness and contrast randomization
-
-The model must learn to detect:
-
-* Partially visible traffic signs
-* Damaged signs
-* Distant signs
-* Motion-blurred signs
+The model must learn to detect, Partially visible traffic signs, Damaged signs, Distant signs, Motion-blurred signs
 
 # Input Requirements
 
@@ -80,19 +62,11 @@ The system must support:
 
 ## Static Images
 
-Used for:
-
-* Batch processing
-* Road audits
-* Offline traffic analysis
+Used for, Batch processing, Road audits, Offline traffic analysis
 
 ## Recorded Video
 
-Used for:
-
-* Fleet monitoring
-* Post-drive analytics
-* Surveillance applications
+Used for Fleet monitoring,  Post-drive analytics, Surveillance applications
 
 ## Live Stream
 
@@ -108,21 +82,11 @@ Provide real-time webcam/video-stream integration for:
 
 Use **YOLOv8** as the primary object detection architecture.
 
-Alternative architectures may be considered if they provide:
-
-* Better latency
-* Higher mAP
-* Improved edge-device performance
+Alternative architectures may be considered if they provide Better latency, Higher mAP, Improved edge-device performance
 
 ## Performance Optimization
 
-Optimize the model for:
-
-* GPU acceleration
-* TensorRT/ONNX export
-* Batch inference
-* Quantization
-* Mixed precision inference
+Optimize the model for GPU acceleration, TensorRT/ONNX export, Batch inference, Quantization, Mixed precision inference
 
 Target:
 
